@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>National Parks Web Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="nav" style="background-color:rgba(0, 27, 0, 1)">
+      <div id="logo" data-text="National Parks" style="font-family: logo;font-weight: 600;font-size: 36px; color: white;" class="mt-3 mx-5">National Parks</div>
+      <div class="headd">
+        <ul class="nav-items pt-1.5 mx-5" id="ulu">
+          <li><a style="color: #008000;" href="">Home</a></li>
+          <li class="visit" style="position: relative;">
+            <a href="" class="visitors">Places to visit</a>
+            <img class="visit-icon" src="8213476.png" style="width : 10px;" alt="">
+            <ul id="lulu">
+              <li>Resturant</li>
+              <li>Gallery</li>
+              <li>Entertainment</li>
+              <li>Attraction</li>
+            </ul>
+          </li>
+          <li><a href="">Online Ticket</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li style="margin-right: 200px;"><a href="">About Us</a></li>
+          <li class="btns" style="cursor: pointer;">
+            <button id="loginbtn" class="log-btn">Log In</button>
+            <img class="login" style="cursor: pointer;margin-right: 0px;width: 15px; filter: invert(100%) sepia(0%) saturate(13%) hue-rotate(275deg) brightness(106%) contrast(106%);" src="2997924.png" alt="">
+            <button id="signingup" class="sign-btn">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  
+  
+  <section id="home" class="container mt-5">
+    
+    <h1 style="font-family: 'Raleway',sans-serif; font-weight: 1;">Welcome to the National Parks Web Portal</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <h3 style="font-family: 'Dancing Script', cursive; font-weight: 600;">OUR VISION</h3>
+        <p style="font-family: 'Cookie', cursive;">Everyone experiences the endless possibilities of our nation’s parks.</p>
+        <h3 style="font-family: 'Dancing Script', cursive; font-weight: 600;">OUR MISSION</h3>
+        <p style="font-family: 'Cookie', cursive; text-align: justify;">
+          “The scenic ideals that surround even our national parks are carriers of a nostalgia for heavenly bliss and eternal calmness.” We preserve parks today and create park stewards for tomorrow.
+          A national park is an area set aside by a national government for the preservation of the natural environment. We acquire the missing pieces of our national parks, the privately owned land located within and adjacent to our national parks’ boundaries. We also bring thousands of kids from under-served communities to our parks; they are our future caretakers of these priceless resources, “National parks and reserves are an integral aspect of intelligent use of natural resources.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div style="cursor: pointer;" id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img style="border-radius: 10px;" id="carousel-img1" src="park-2863734_1280.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img style="border-radius: 10px;" id="carousel-img2" src="barcelona-3960566_640.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img style="border-radius: 10px;" id="carousel-img3" src="bear-1355726_640.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="home" class="container mt-5">
+    <section id="main2">
+      <div class="container">
+        <h2 style="text-align: center;">Resturants</h2>
+        <div class="row">
+          <!-- Place 1 -->
+          <div class="col-md-4">
+            <div class="place-card">
+              <img src="pizza-386717_640.jpg" alt="Place 1">
+              <h3>Fast Food</h3>
+              <p>Flavorsome food that Awaits you Buon appetito!   </p>
+            </div>
+          </div>
+          <!-- Place 2 -->
+          <div class="col-md-4">
+            <div class="place-card">
+              <img src="istockphoto-467413730-612x612.webp" alt="Place 2">
+              <h3>Mutton & BBQ</h3>
+              <p>Mouth-watering & appetizing meat that Wake up your taste buds</p>
+            </div>
+          </div>
+          <!-- Place 3 -->
+          <div class="col-md-4">
+            <div class="place-card">
+              <img src="istockphoto-182409111-170667a.jpg" alt="Place 3">
+              <h3>Sea Food</h3>
+              <p>Delicious sea food that gives you a toothsome experience </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="home" class="container mt-5">
+      <section id="main2" class="main23">
+        <div class="container">
+          <h2 style="text-align: center;">Attraction</h2>
+          <div class="row">
+            <!-- Place 1 -->
+            <div class="col-md-4">
+              <div class="place-card">
+                <img src="istockphoto-1137781483-612x612.jpg" alt="Place 1">
+                <h3>Shows</h3>
+                <p>Experience the thrill & excitement of our high-energy performance that will keep you on the edge of your seat</p>
+              </div>
+            </div>
+            <!-- Place 2 -->
+            <div class="col-md-4">
+              <div class="place-card">
+                <img src="istockphoto-494388654-612x612.jpg" alt="Place 2">
+                <h3>Entertainment</h3>
+                <p>Make yourself entertain, make people laugh and to forget about the real world for awhile </p>
+              </div>
+            </div>
+            <!-- Place 3 -->
+            <div class="col-md-4">
+              <div class="place-card">
+                <img src="rides-2613956_640.jpg" alt="Place 3">
+                <h3>Rides</h3>
+                <p>Hold your breath & get ready to scream, laugh, & create unforgettable memories on this amazing ride! </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  <footer>
+    <!-- Add your footer content here -->
+  </footer>
+
+  <!-- Include Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // $(document).ready(function() {
+    //   $('.visit').hover(
+    //     function() {
+    //       $(this).find('a').css('color', 'green');
+    //       $(this).find('img').css('filter', 'grayscale(0)');
+    //     },
+    //     function() {
+    //       $(this).find('a').css('color', '');
+    //       $(this).find('img').css('filter', '');
+    //     }
+    //   );
+    // });
+
+    $(document).ready(function() {
+  $('.visit').hover(
+    function() {
+      $('.visit-icon').css({
+        "filter": "invert(39%) sepia(99%) saturate(1336%) hue-rotate(87deg) brightness(97%) contrast(91%)"
+      });
+    },
+    function() {
+      $('.visit-icon').css({
+        "filter": "none"
+      });
+    }
+  );
+});
+
+$(document).ready(function() {
+  $('.visit').hover(
+    function() {
+      $('.visitors').not('.specific-li').css({
+        "color": "green"
+      });
+    },
+    function() {
+      $('.visitors').not('.specific-li').css({
+        "color": ""  // Remove the color property to revert to the original color
+      });
+    }
+  );
+});
+
+// $(document).ready(function() {
+//   $('#upsign').hover(
+//     function() {
+//       $('#upsign').not('.specific-li').css({
+//         "box-shadow" : "0 0 5px green,0 0 25px green, 0 0 50px green,0 0 100px green, 0 0 200px green",
+//         "text-decoration" : "underline"
+//       });
+//     },
+//     function() {
+//       $('#upsign').not('').css({
+//         "box-shadow": "",
+//         "text-decoration" : ""
+//       });
+//     }
+//   );
+// });
+
+
+
+$(document).ready(function(){
+  $('.visit').click(function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    $('#lulu').slideToggle();
+  });
+
+  $('#lulu').click(function(e){
+    e.stopPropagation();
+  });
+
+  $(document).click(function(){
+    if ($('#lulu').is(':visible')) {
+      $('#lulu').slideUp();
+    }
+  });
+});
+
+
+  </script>
+</body>
+</html>
+
